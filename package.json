@@ -1,6 +1,6 @@
 {
   "name": "mui-react-fast-form",
-  "version": "1.0.59",
+  "version": "1.0.6",
   "description": "Soon (last 7 days)",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",

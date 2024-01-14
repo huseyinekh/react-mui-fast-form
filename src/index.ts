@@ -1,2 +1,5 @@
-import FastField from "./component/FastField";
-export { FastField }
+import FastField from "./components/FastField";
+import IFormElement from "./interfaces/IFormElement";
+
+
+export { FastField, IFormElement}

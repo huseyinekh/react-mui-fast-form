@@ -1,6 +1,6 @@
 {
   "name": "mui-react-fast-form",
-  "version": "1.0.6",
+  "version": "1.0.64",
   "description": "Soon (last 7 days)",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -41,8 +41,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tslib": "^2.6.2",
-    "typescript": "^5.3.3",
-    "usehooks-ts": "2.0.0"
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -50,6 +49,7 @@
   "dependencies": {
     "@mui/icons-material": "^5.15.4",
     "@mui/x-date-pickers": "^6.19.0",
-    "dayjs": "^1.11.10"
+    "dayjs": "^1.11.10",
+    "usehooks-ts": "^2.9.4"
   }
 }

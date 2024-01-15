@@ -99,7 +99,7 @@
 
 "@emotion/react@^11.11.3":
   version "11.11.3"
-  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.11.3.tgz#96b855dc40a2a55f52a72f518a41db4f69c31a25"
+  resolved "https://registry.npmjs.org/@emotion/react/-/react-11.11.3.tgz"
   integrity sha512-Cnn0kuq4DoONOMcnoVsTOR8E+AdnKFf//6kUWc4LCdnxj31pZWn7rIULd6Y7/Js1PiPHzn7SKCM9vB/jBni8eA==
   dependencies:
     "@babel/runtime" "^7.18.3"
@@ -129,7 +129,7 @@
 
 "@emotion/styled@^11.11.0":
   version "11.11.0"
-  resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-11.11.0.tgz#26b75e1b5a1b7a629d7c0a8b708fbf5a9cdce346"
+  resolved "https://registry.npmjs.org/@emotion/styled/-/styled-11.11.0.tgz"
   integrity sha512-hM5Nnvu9P3midq5aaXj4I+lnSfNi7Pmd4EWk1fOZ3pxookaQTNew6bp4JaCBYM4HVFZF9g7UjJmsUmC2JlxOng==
   dependencies:
     "@babel/runtime" "^7.18.3"
@@ -206,14 +206,14 @@
 
 "@mui/icons-material@^5.15.4":
   version "5.15.4"
-  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-5.15.4.tgz#fb8a5e4be2cd656c5d5b1bbad7618b3fadf8d37b"
+  resolved "https://registry.npmjs.org/@mui/icons-material/-/icons-material-5.15.4.tgz"
   integrity sha512-q/Yk7aokN8qGMpR7bwoDpBSeaNe6Bv7vaY9yHYodP37c64TM6ime05ueb/wgksOVszrKkNXC67E/XYbRWOoUFA==
   dependencies:
     "@babel/runtime" "^7.23.7"
 
 "@mui/material@^5.15.4":
   version "5.15.4"
-  resolved "https://registry.yarnpkg.com/@mui/material/-/material-5.15.4.tgz#354e0972fc89207926e9e53cc9cb349049873517"
+  resolved "https://registry.npmjs.org/@mui/material/-/material-5.15.4.tgz"
   integrity sha512-T/LGRAC+M0c+D3+y67eHwIN5bSje0TxbcJCWR0esNvU11T0QwrX3jedXItPNBwMupF2F5VWCDHBVLlFnN3+ABA==
   dependencies:
     "@babel/runtime" "^7.23.7"
@@ -279,7 +279,7 @@
 
 "@mui/x-date-pickers@^6.19.0":
   version "6.19.0"
-  resolved "https://registry.yarnpkg.com/@mui/x-date-pickers/-/x-date-pickers-6.19.0.tgz#198b6c3b396adc1d75fab25a5a13fe21ff9ee71b"
+  resolved "https://registry.npmjs.org/@mui/x-date-pickers/-/x-date-pickers-6.19.0.tgz"
   integrity sha512-/GccT+iFJTKjI6b9b0MWojyRKnizL/VYYAfPnR1q0wSVVXjYv7a1NK0uQlan4JbnovqoQCNVeTOCy/0bUJyD2Q==
   dependencies:
     "@babel/runtime" "^7.23.2"
@@ -396,7 +396,7 @@ csstype@^3.0.2, csstype@^3.1.2:
 
 dayjs@^1.11.10:
   version "1.11.10"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.10.tgz#68acea85317a6e164457d6d6947564029a6a16a0"
+  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.11.10.tgz"
   integrity sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==
 
 dom-helpers@^5.0.1:
@@ -626,7 +626,7 @@ to-fast-properties@^2.0.0:
 
 tslib@^2.6.2:
   version "2.6.2"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
 typescript@^5.3.3:
@@ -634,10 +634,10 @@ typescript@^5.3.3:
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz"
   integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
 
-usehooks-ts@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/usehooks-ts/-/usehooks-ts-2.0.0.tgz#a4ca21ccdc773d1450711dc043f18e9a6b1a54fb"
-  integrity sha512-t7wftWBd7EV6X5wzbmj8WZ+GLPJdTrHA5KwcKT/Wf+1XpQJdZql9Qx5Nb1walaFbkvmYfbazCWFnwA/jcE0uLQ==
+usehooks-ts@^2.9.4:
+  version "2.9.4"
+  resolved "https://registry.yarnpkg.com/usehooks-ts/-/usehooks-ts-2.9.4.tgz#188c0428b60e37a7fdc599567c10ea44a77e1d11"
+  integrity sha512-VOSEbA+BGGORLttsICowNb5CG0D2/IEoVvMEl9OuuOoQi99W6XuNipo3SPFhWo3Bhdwi0Swj1D+IMQDQB9KrwQ==
 
 yaml@^1.10.0:
   version "1.10.2"

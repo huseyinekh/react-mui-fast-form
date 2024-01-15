@@ -10,7 +10,7 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import MuiAutocomplete from "@mui/material/Autocomplete";
 import { useDebounce } from "usehooks-ts";
-import "./style.scss";
+// import "./style.scss";
 import AddProductItemsDialog from "./AddProductItemsDialog";
 import { Tooltip } from "@mui/material";
 import React from "react";

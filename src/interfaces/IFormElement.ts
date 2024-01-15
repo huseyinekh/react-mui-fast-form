@@ -5,6 +5,7 @@ interface IFormElement {
     name: string,
     type: "text" | "autoComplete" | "multipleAutoComplete" | "radio" | "date"| "select" | "component" | "tag" 
     ref?: React.MutableRefObject<any>,
-    additionals:ICommonAdditionals
+    additionals?:ICommonAdditionals,
+    [key:string]:any
 }
 export default IFormElement

@@ -20,7 +20,7 @@ interface IProps {
   options?: Array<any>;
   onChange?: (e, val) => any;
   onInputChange?: (e, val) => any;
-  onBlur?: (e, val) => any;
+  onBlur?: (e, val?) => any;
   getDataFromApi: (data: any) => Promise<any>;
   register?: any;
   width?: string;
@@ -36,6 +36,7 @@ interface IProps {
   alternatviteOption?: boolean;
   alternatviteOptionComponent?: any;
   optionLabel?: string;
+  [key:string]:any
 }
 
 const CustomAutoComplete = forwardRef((props: IProps, ref) => {
@@ -248,6 +249,8 @@ const CustomAutoComplete = forwardRef((props: IProps, ref) => {
           />
         )}
         disabled={props.disabled}
+        {...props}
+       
       />
       {props.alternatviteOptionComponent ? (
         <props.alternatviteOptionComponent

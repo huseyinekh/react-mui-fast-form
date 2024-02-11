@@ -95,7 +95,7 @@ const CustomTextField = forwardRef((props: IProps, ref?) => {
       disabled={props.disabled}
       variant={props.variant ?? defaultVariant}
       placeholder={props.placeholder}
-      style={props.style}
+      style={{width:"100%",...props.style}}
       sx={props.sx}
       onInvalid={(e: any) => {
         e.preventDefault();
